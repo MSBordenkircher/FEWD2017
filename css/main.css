@@ -455,6 +455,35 @@ template {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /****************************************************************************
 MAIN.CSS
 ****************************************************************************/
@@ -470,6 +499,10 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+#content {
+  max-width: 100%;
 }
 
 
@@ -509,12 +542,45 @@ nav ul li a {
   top: 147px;
   max-width: 100%;
   display: block;
+  margin-bottom: 20px;
 }
 
+
+
+/***********************************************
+HOME
+***********************************************/
+div h2 {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ffa5ca;
+  color: white;
+  border-radius: 25px;
+}
+
+
+#inside {
+  max-width: 100%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+div p {
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 25px;
+  text-align: center;
+}
+
+div {
+  margin-bottom: 20px;
+}
 
 /***********************************************
 FLAVORS
 ***********************************************/
+button {
+  margin-top: 5px;
+}
 
 .flavor {
   max-width: 120px;
@@ -532,7 +598,7 @@ FLAVORS
   max-width: 90%;
   margin: auto;
   display: none;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 div h1 {
@@ -618,8 +684,60 @@ FOOTER
 ***********************************************/
 
 footer {
-  background-color: rgba(255,165,202,0.2);
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(255,165,202,0.4);
   color: white;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
+  height: 20px;
 }
+
+
+
+
+
+/***********************************************
+BREAKPOINTS
+***********************************************/
+
+
+
+@media (min-width: 422px) {
+
+  #icon {
+    max-width: 170px;
+    margin: 35.25px 10px 20px 10px;
+  }
+
+  nav {
+    margin-top: 11px;
+  }
+
+  nav ul li a {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  #banner {
+    position: absolute;
+    top: 174px;
+;
+  }
+
+#content {
+  max-width: 70%;
+  margin: auto;
+}
+
+}
+
+
+
+
+@media (min-width: 768px) { ... }
+
+
+
+
+@media (min-width: 992px) { ... }
