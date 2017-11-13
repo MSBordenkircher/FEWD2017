@@ -1,6 +1,5 @@
 # README.md
 
-![(https://gph.is/2aDMAJx)]
 :icecream:
 
 ## Thank you for coming to check out my prokect!
