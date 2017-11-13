@@ -501,10 +501,6 @@ ul {
   list-style-type: none;
 }
 
-#content {
-  max-width: 100%;
-}
-
 
 /***********************************************
 HEADER
@@ -528,6 +524,7 @@ nav {
   float: right;
   list-style: none;
   max-width: 45%;
+  margin-bottom: -10px;
 }
 
 nav ul li a {
@@ -538,11 +535,14 @@ nav ul li a {
 }
 
 #banner {
-  position: absolute;
-  top: 147px;
+
   max-width: 100%;
   display: block;
   margin-bottom: 20px;
+}
+
+#bannerlg {
+  display: none;
 }
 
 
@@ -575,6 +575,11 @@ div {
   margin-bottom: 20px;
 }
 
+.row {
+  clear: both;
+}
+
+
 /***********************************************
 FLAVORS
 ***********************************************/
@@ -591,11 +596,13 @@ button {
 #flavorwrapper {
   margin-top: 20px;
   text-align: center;
+  max-width: 768px;
+  margin: auto;
 }
 
 #vanillainfo , #chocolateinfo, #mintinfo, #pumpkininfo, #pbinfo, #cncreaminfo, #coffeeinfo, #raspberryinfo, #blueberryinfo {
   text-align: center;
-  max-width: 90%;
+  max-width: 720px;
   margin: auto;
   display: none;
   margin-bottom: 40px;
@@ -735,9 +742,23 @@ BREAKPOINTS
 
 
 
-@media (min-width: 768px) { ... }
+@media (min-width: 769px) {
+
+#icon {
+  max-width: 320px;
+  margin: 35.25px 10px 20px 10px;
+  }
 
 
+#banner {
+  display: none;
+}
 
+#bannerlg {
+  display: block;
+  max-width: 100%;
+}
+
+}
 
 @media (min-width: 992px) { ... }
