@@ -2,7 +2,7 @@
 
 :icecream:
 
-## Thank you for coming to check out my prokect!
+## Thank you for coming to check out my project!
 
 This website was designed for a fictional ice cream shop. I used ice cream as my sbuject so that I could play with bright, fun colors and more of a bubbly feel. As with ice cream, my site has round feel to it as compared to more modern, blocky sites.
 
