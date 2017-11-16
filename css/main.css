@@ -596,9 +596,25 @@ FLAVORS
 }
 
 .btn-outline-info {
-  border-color: #ffa5ca;
+  border-color: transparent;
   color: #ffa5ca;
 }
+
+.btn-outline-info.focus, .btn-outline-info:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,165,202,.5);
+}
+
+.btn-outline-info:hover, .btn-outline-info:focus {
+  border-color: #ffa5ca;
+  background-color: #ffa5ca;
+}
+
+.btn-outline-info:not([disabled]):not(.disabled).active, .btn-outline-info:not([disabled]):not(.disabled):active, .show>.btn-outline-info.dropdown-toggle {
+  background-color: #ffa5ca;
+  border-color: #ffa5ca;
+  box-shadow: 0 0 0 0.2rem rgba(255,165,202,.5);
+}
+
 
 .flavor {
   max-width: 120px;
