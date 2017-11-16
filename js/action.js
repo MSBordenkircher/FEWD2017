@@ -1,4 +1,4 @@
-console.log('hello');
+console.log('Hello, thank you for coming to my website and checking out the console. Not much here yet.');
 
 var vanilla = document.getElementById('vanillainfo');
 var chocolate = document.getElementById('chocolateinfo');
@@ -10,6 +10,19 @@ var coffee = document.getElementById('coffeeinfo');
 var raspberry = document.getElementById('raspberryinfo');
 var blueberry = document.getElementById('blueberryinfo');
 
+function displayNone() {
+  chocolate.style.display = "none";
+  mint.style.display = "none";
+  pumpkin.style.display = "none";
+  pb.style.display = "none";
+  cncream.style.display = "none";
+  coffee.style.display = "none";
+  raspberry.style.display = "none";
+  blueberry.style.display = "none";
+  vanilla.style.display = "none";
+}
+
+displayNone();
 
 function displayVanillaInfo() {
   chocolate.style.display = "none";
