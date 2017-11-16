@@ -590,8 +590,14 @@ div p a {
 /***********************************************
 FLAVORS
 ***********************************************/
-button {
+.btn {
   margin-top: 5px;
+  border-radius: 100%;
+}
+
+.btn-outline-info {
+  border-color: #ffa5ca;
+  color: #ffa5ca;
 }
 
 .flavor {
